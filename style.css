@@ -1,0 +1,131 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    /* ======= HEADER ======= */
+    header {
+      background: linear-gradient(to bottom, #d62828, #8d0801);
+      color: #ffffff;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #fff;
+    }
+
+    header .btn {
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #ffcc00;
+      color: #ffffff;
+      font-weight: bold;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* ======= EVENTO ======= */
+    .evento-info {
+      background: #400000aa;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      width: fit-content;
+      color: #fff;
+    }
+
+    /* ======= MODALIDADES ======= */
+    .modalidades {
+      text-align: center;
+      padding: 40px 20px;
+      background: #eee;
+    }
+
+    .modalidades h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #d62828;
+    }
+
+    .cards {
+      display: grid;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin: 10px 0;
+    }
+
+    /* ======= FORMULÁRIO ======= */
+    .form-section {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(to bottom, #400000, #1a0000);
+      color: #fff;
+    }
+
+    .formulario {
+      background: #fff;
+      color: #000;
+      display: inline-block;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .formulario input, .formulario select {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .formulario button {
+      background: #d62828;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    /* ======= FOOTER ======= */
+    footer {
+      background: #000;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    footer .contato {
+      margin-top: 20px;
+    }
+
+    footer .contato p {
+      margin: 5px 0;
+    }
